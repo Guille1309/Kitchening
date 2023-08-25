@@ -1,0 +1,126 @@
+body{
+    background-image: url(../img/bg-body.png);
+}
+
+/*Generales*/
+.login a,ul,ol,li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+/*Primer Section*/
+.login {
+    display: flex;
+    justify-content: flex-end;
+
+}
+/*Section logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.imgLogo {
+    border-radius: 400px;
+}
+/*Nav*/
+.navLista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 100px;
+}
+.lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0px;
+}
+.listita {
+    display: flex;
+    padding: 20px;
+    background-color:#444;
+    height: auto;
+    width: 150px;
+}
+.listita a {
+    color:white;
+    ;
+}
+
+
+
+
+
+
+
+.banner{
+    display: flex;
+    padding: 0px 100px; 
+    justify-content: center;
+}
+.banner img{
+    width: 100%;
+}
+.tarjeta-sec{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+padding: 20px 100px;
+}
+.tarjeta{
+width: 30%;
+margin: 10px 0px;
+color: #666;
+}
+.tarjeta h3{
+    color: black;
+}
+.tarjeta img{
+width: 100%;
+}
+.tarjeta a{
+    background-color: #444;
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+ul, ol, li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.footerUl{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(200,0,0);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 50px;
+    margin: 0px 100px;
+}
+.nav-footer{
+    align-items: center;
+    justify-content: center;
+}
+.item-footer{
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
