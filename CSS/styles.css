@@ -48,7 +48,7 @@ body{
     padding: 20px;
     background-color:#444;
     height: auto;
-    width: 150px;
+    width: 180px;
 }
 .listita a {
     color:white;
@@ -155,13 +155,27 @@ ul, ol, li, a {
     .tarjeta{
         width: fit-content;
     }
+    .footer {
+        height: vw;
+    }
     .footerUl{
         flex-direction: column;
         background-color: transparent;
+        margin: 0%;
+        padding: 0%;
+        height: 42vh;
+
     }
     .item-footer{
-        padding: 0px;
         background-color: #444;
+        display: flex;
+        padding: 5%;
+        background-color: #444;
+        height: auto;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
     }
     .linea{
         display: none;
