@@ -121,19 +121,16 @@ ul, ol, li, a {
 
 
 /*Ahora vamos a editar el css para formato celu*/
-@media (max-width: 420px) {
-
-    .body {
-        padding: 0px;
-    }
-
-    .navLista {
+@media(max-width: 420px) {
+   body{
+    padding: 0px;
+   }
+   .navLista {
         padding: 0px;
         width: fit-content;
     }
     .lista{
         flex-direction: column;
-
     }
     .listita {
         display: flex;
@@ -144,5 +141,4 @@ ul, ol, li, a {
         align-items: center;
         justify-content: center;
         margin: 2px;
-    }
-}
+    }}
