@@ -122,6 +122,11 @@ ul, ol, li, a {
 
 /*Ahora vamos a editar el css para formato celu*/
 @media (max-width: 420px) {
+
+    .body {
+        padding: 0px;
+    }
+
     .navLista {
         padding: 0px;
         width: fit-content;
