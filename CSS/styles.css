@@ -128,7 +128,7 @@ ul, ol, li, a {
     }
     .lista{
         flex-direction: column;
-        width: ;
+
     }
     .listita {
         display: flex;
@@ -139,4 +139,5 @@ ul, ol, li, a {
         align-items: center;
         justify-content: center;
         margin: 2px;
+    }
 }
