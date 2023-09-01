@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-image: url(../img/bg-body.png);
 }
@@ -12,14 +16,10 @@ body{
 
 }
 
-body {
-    box-sizing: border-box;
-}
 /*Primer Section*/
 .login {
     display: flex;
     justify-content: flex-end;
-
 }
 /*Section logo*/
 .logo {
@@ -54,12 +54,6 @@ body {
     color:white;
     ;
 }
-
-
-
-
-
-
 
 .banner{
     display: flex;
@@ -123,4 +117,26 @@ ul, ol, li, a {
     color: white;
     padding: 10px;
     align-items: center;
+}
+
+
+/*Ahora vamos a editar el css para formato celu*/
+@media (max-width: 420px) {
+    .navLista {
+        padding: 0px;
+        width: fit-content;
+    }
+    .lista{
+        flex-direction: column;
+        width: ;
+    }
+    .listita {
+        display: flex;
+        padding: 20px;
+        background-color: #444;
+        height: auto;
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
 }
