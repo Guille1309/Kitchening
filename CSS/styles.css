@@ -119,6 +119,11 @@ ul, ol, li, a {
     align-items: center;
 }
 
+/* register.html */
+.register-form{
+    display: flex;
+    flex-direction: column;
+}
 
 /*Ahora vamos a editar el css para formato celu*/
 @media(max-width: 420px) {
