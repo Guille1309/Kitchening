@@ -120,9 +120,9 @@ ul, ol, li, a {
 }
 
 /* register.html */
-.register-form{
+.titulo-register{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
 /*Ahora vamos a editar el css para formato celu*/
