@@ -125,6 +125,33 @@ ul, ol, li, a {
     justify-content: center;
 }
 
+.form-sec{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 5%;
+    background-color: #4444442b;
+}
+
+.contenedor-input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+    width: 100%;
+}
+
 /*Ahora vamos a editar el css para formato celu*/
 @media(max-width: 420px) {
    body{
