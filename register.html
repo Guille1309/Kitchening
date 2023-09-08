@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Register</title>
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     <header class="header">
         <section class="login">
-            <a href="#">Log-in |</a>
+            <a href="./login.html">Log-in |</a>
             <a href="./register.html">Register</a>
         </section>
         <section>
@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="contenedor-input">
-                    <label for="miPais">País de nacimiento</label>
+                    <h3>País de nacimiento</h3>
                     <select name="pais" id="miPais" checked>
                         <option value="Ch">Chile</option>
                         <option value="Arg">Argentina</option>
@@ -60,15 +60,15 @@
                     </select>
                 </div>
 
-                <div class="contenedor-input">
-                    <label for="miGenero">Género</label>
+                <h3>Género</h3>
+                <div class="contenedor-opciones">
                     <input type="radio" name="genero" value="masculino"> <span>Masculino</span>
                     <input type="radio" name="genero" value="femenino"> <span>Femenino</span>
                     <input type="radio" name="genero" value="prefieroNoDecir"> <span>Prefiero no decirlo</span>
                 </div>
 
-            <div class="contenedor-input">
-                <label for="miHobbie">Hobbies</label>
+                <h3>Hobbies</h3>
+            <div class="contenedor-opciones">
                 <input type="checkbox" name="hobbie" value="guitarra"> <span>Guitarra</span>
                 <input type="checkbox" name="hobbie" value="futbol"> <span>Fútbol</span>
                 <input type="checkbox" name="hobbie" value="tenis"> <span>Tenis</span>
@@ -76,8 +76,11 @@
             </div>
 
                 <div class="contenedor-input">
-                    <label for="miComentario">Déjanos tus comentarios</label>
+                    <h3>Déjanos tus comentarios</h3>
                     <textarea name="comentarios" id="" cols="30" rows="2"></textarea>
+                </div>
+
+                <div class="contenedor-opciones">
                     <input type="checkbox" name="aceptaCondiciones" value="si"> <span>Acepto los términos y condiciones</span>
                 </div>
 
@@ -86,7 +89,7 @@
                     <input type="button" value="Cancelar">
                 </div>
 
-                <div class="contenedor-input">
+                <div class="contenedor-opciones">
                     <button type="submit">Registrarme</button>
                     <button type="reset">Cancelar</button>
                 </div>
