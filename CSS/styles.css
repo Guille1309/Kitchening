@@ -135,15 +135,18 @@ ul, ol, li, a {
 }
 
 form{
-    display: flex;
+        display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 30%;
     padding: 5%;
-    background-color: #4444442b;
+    background-color: #44444454;
 }
-
+.recordar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 5%;
+}
 .contenedor-input{
     display: flex;
     justify-content: center;
@@ -151,7 +154,19 @@ form{
     margin: 2%;
     width: 100%;
 }
-
+button{
+    background-color:rgba(0, 102, 255, 0.692) ;
+    color: white;
+    padding: 3%;
+    width: 60%;
+    border-radius: 10%;
+    border: rgba(0, 102, 255, 0.692);
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
 /*Ahora vamos a editar el css para formato celu*/
 @media(max-width: 420px) {
    body{
